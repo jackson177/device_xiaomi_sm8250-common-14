@@ -161,6 +161,9 @@ persist.vendor.btstack.enable.lpa=true
 
 
 
+# Camera
+persist.vendor.camera.logInfoMask=false
+
 # Chipset
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
