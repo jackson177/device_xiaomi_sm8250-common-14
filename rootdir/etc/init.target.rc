@@ -137,6 +137,7 @@ on property:ro.boot.dp=0x0
 
 on boot
     chown system system /sys/class/touch/touch_dev/palm_sensor
+    chmod 0664 /sys/class/touch/touch_dev/palm_sensor
     chown system system /sys/class/touch/touch_dev/partial_diff_data
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon
