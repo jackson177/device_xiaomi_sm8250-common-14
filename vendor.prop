@@ -151,6 +151,7 @@ ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=hastings
 persist.bluetooth.sbc_hd_higher_bitrate=1
 vendor.hw.fm.init=0
+persist.vendor.bt.a2dp.aac_whitelist=false
 
 # Chipset
 ro.soc.manufacturer=QTI
